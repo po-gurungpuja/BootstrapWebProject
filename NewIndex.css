@@ -1,0 +1,52 @@
+li{
+    padding: 5px 15px;
+
+}
+
+li a{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul{
+    font-family: Arial Black;
+}
+li a:hover{
+    color: rgb(131, 77, 77);
+}
+
+#featured img{
+    width: 100%;
+}
+#featured div a{
+    background-color: brown;
+    color: cornsilk;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#featured div a:hover{
+    color:brown;
+    background-color: whitesmoke;
+}
+
+#cc div ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 40px;
+    
+}
+#cc div ul li a{
+    display: inline-block;
+}
+#footer{
+    height: 180px;
+    width:100%;
+    background-color: rgb(216, 165, 70);
+}
+#footer div p{
+    padding-top: 30px;
+    
+    font-size: 20px;
+    text-align: center;
+}
