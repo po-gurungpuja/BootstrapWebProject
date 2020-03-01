@@ -30,13 +30,23 @@ li a:hover{
 
 }
 #footer{
-    height: 180px;
+    height: 400px;
     width:100%;
     background-color: rgb(216, 165, 70);
+    color: whitesmoke;
 }
-#footer div p{
-    padding-top: 30px;
-    
+#footer #foot p{
+    padding-top: 100px;    
     font-size: 20px;
     text-align: center;
+
+
+}
+#footer div.row h3{
+    text-align: center;
+    margin-top: 20px;
+}
+#footer div.row p{
+    text-align: justify;
+    font-size: 20px;
 }
