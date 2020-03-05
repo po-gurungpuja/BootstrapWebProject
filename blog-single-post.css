@@ -1,3 +1,4 @@
+
 li{
     padding: 5px 15px;
 
@@ -17,6 +18,36 @@ li a:hover{
 #seed div{
     padding-bottom: 10px;
 }
+#seed #s p{
+    text-align: justify;
+    
+}
+#seed #e p {
+    text-align: justify;
+    
+}
+#imp #seed {
+    
+    border: 1px solid brown;
+}
+#imp #doc {
+    margin-top: 5px;
+    border: 1px solid brown;
+    margin-bottom: 5px;
+}
+#doc #d p{
+    text-align: left;
+    
+}
+#doc #o p {
+    text-align: justify;
+    
+}
+#doc #c p {
+    text-align: right;
+    
+}
+
 #featured img{
     width: 100%;
 }
@@ -31,10 +62,16 @@ li a:hover{
     background-color: whitesmoke;
 }
 #footer{
-    height: 400px;
+    height: 600px;
     width:100%;
     background-color: rgb(216, 165, 70);
     color: whitesmoke;
+}
+#footer h2{
+    font-family: Arial Black;
+    text-align: center;
+    padding-top: 5px;
+
 }
 #footer #foot p{
     padding-top: 100px;    

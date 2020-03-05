@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<style>
+    #demo1{
+        font-size: 20px;
+        padding: 20px;
+    }
+    body button{
+        margin: 10px;;
+    }
+</style>
+<body>
+    <h1>Javasript</h1>
+    <hr>
+    <button class="btn btn-secondary" onclick="myfunc()">Education</button>
+    <button class="btn btn-primary"  onclick="myfunc1()">Hobbies</button>
+    <p id="demo1"></p>
+
+    <script>
+        function myfunc(){
+                document.getElementById("demo1").innerHTML = 100;
+        }
+        function myfunc1(){
+            document.getElementById("demo1").innerHTML ="I like playing badminton.";
+        }
+    </script>
+</body>
+</html>

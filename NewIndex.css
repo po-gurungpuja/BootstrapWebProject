@@ -24,11 +24,16 @@ li a:hover{
 #featured img{
     width: 100%;
 }
+#featured p {
+    font-size: 25px;
+}
+
 #featured div a{
     background-color: brown;
     color: cornsilk;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 25px;
 }
 #featured div a:hover{
     color:brown;
@@ -50,10 +55,16 @@ li a:hover{
     opacity: 0.3;
 }
 #footer{
-    height: 400px;
+    height: 600px;
     width:100%;
     background-color: rgb(216, 165, 70);
     color: whitesmoke;
+}
+#footer h2{
+    font-family: Arial Black;
+    text-align: center;
+    padding-top: 5px;
+
 }
 #footer #foot p{
     padding-top: 100px;    

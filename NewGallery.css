@@ -30,10 +30,16 @@ li a:hover{
 
 }
 #footer{
-    height: 400px;
+    height: 600px;
     width:100%;
     background-color: rgb(216, 165, 70);
     color: whitesmoke;
+}
+#footer h2{
+    font-family: Arial Black;
+    text-align: center;
+    padding-top: 5px;
+
 }
 #footer #foot p{
     padding-top: 100px;    
