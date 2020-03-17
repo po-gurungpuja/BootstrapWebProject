@@ -29,16 +29,19 @@ li a:hover{
 }
 
 #featured div a{
-    background-color: brown;
+    float: right;
     color: cornsilk;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 25px;
+    font-family: cursive;
+    
 }
 #featured div a:hover{
     color:brown;
     background-color: whitesmoke;
 }
+
 
 #cc div ul li{
     text-decoration: none;
@@ -46,7 +49,7 @@ li a:hover{
     display: inline-block;
     margin-top: 40px;
     margin-left: 12px;
-    
+    clear: right;
 }
 #cc div ul li a{
     display: inline-block;
@@ -55,7 +58,7 @@ li a:hover{
     opacity: 0.3;
 }
 #footer{
-    height: 600px;
+    height: 1000px;
     width:100%;
     background-color: rgb(216, 165, 70);
     color: whitesmoke;
@@ -66,8 +69,9 @@ li a:hover{
     padding-top: 5px;
 
 }
-#footer #foot p{
-    padding-top: 100px;    
+
+#foot p{
+    padding-top: 100px;
     font-size: 20px;
     text-align: center;
 
